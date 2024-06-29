@@ -10,12 +10,24 @@ published: true
   <div class="blog-post">
       <h1 class="blog-title">
         <i class="fa fa-file-text"></i>
-        {{ post.title }}
+	      2024.06.01积分情况
       </h1>
       <br>
-      <img src="assets/img/slider/{{ post.picture }}" alt="Feature-img" align="right" width="100%" class="blog-image">
       <br>
-      <p>{{ post.description }}</p>
+      <table>
+        <tr>
+          <td>ID</td>
+          <td>积分</td>
+        </tr>
+        <tr>
+          <td>阿语</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>阿莓</td>
+          <td>10</td>
+        </tr>
+      </table>
     </div>
     <hr>
   {% endfor %}
