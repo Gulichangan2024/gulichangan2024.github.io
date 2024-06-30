@@ -63,3 +63,7 @@
   transition: opacity .5s;
   animation: spin 2.5s linear infinite;
 }
+
+p.text_line {
+  white-space: pre;
+}
