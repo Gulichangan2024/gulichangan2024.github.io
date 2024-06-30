@@ -70,3 +70,23 @@ p.text_line {
   margin-bottom: 20px; 
   font-size: 20px; 
 }
+
+.div_center_father {
+  position: relative;
+}
+
+.div_center_son {
+  position: absolute;
+  bottom:50%;
+  margin-bottom: -50px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+
+
+
+
+
+
+
