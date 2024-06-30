@@ -507,6 +507,8 @@ footer{
    right: 0;
    background: black;
    bottom: 0px;
+   position: absolute;  bottom: 0;
+   height: 60px;
 }
 
 footer h3 {
