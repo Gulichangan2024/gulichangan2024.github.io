@@ -15,13 +15,13 @@
   text-align: center;
   display: flex;
   font-size: 1.5em;
-  color: rgb(88 199 250 / 70%);
+  color: rgb(0 0 0 / 70%);
   cursor: pointer;
   font-family: cursive;
 }
 
 .card:hover {
-  color: rgb(88 199 250 / 100%);
+  color: rgb(0 0 0 / 100%);
   transition: color 1s;
 }
 .card:hover:before, .card:hover:after {
